@@ -9,6 +9,10 @@ I used [javaCC](https://javacc.github.io/javacc/) (javacc5.jar) a tool for gener
 ### Visitors
 One visitor has been created to fill the Symbol Table of the compiler. A second visitor is responsible for type checking (semantic analysis) using the Symbol Table and a thrid one is used to generate IR code of LLVM.
 
+### Build project
+```
+make
+```
 
 ### compile tests
 To compile the default tests run
